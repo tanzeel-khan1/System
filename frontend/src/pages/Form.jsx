@@ -61,7 +61,7 @@ const AdmissionForm = () => {
     if (result) {
       setSuccess(true);
       setTimeout(() => {
-        navigate("/"); // ✅ Auto redirect to home
+        navigate("/"); 
       }, 2200);
     }
   };
