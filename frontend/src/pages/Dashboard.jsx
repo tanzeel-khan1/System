@@ -23,7 +23,7 @@ const Dashboard = () => {
             <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-purple-300 rounded-full blur-3xl opacity-40"></div>
 
             <h1 className="text-3xl sm:text-4xl font-extrabold bg-gradient-to-r from-purple-600 to-purple-800 bg-clip-text text-transparent mb-6">
-           Welcome to Bright Future — Let’s Build Your Bright Tomorrow
+              Welcome to Bright Future — Let’s Build Your Bright Tomorrow
             </h1>
 
             <p className="text-gray-600 text-base sm:text-lg max-w-3xl leading-relaxed mb-8">
@@ -42,7 +42,6 @@ const Dashboard = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {[
-              
               {
                 title: "Qualified Teachers",
                 desc: "Experienced and trained faculty focused on student success.",
@@ -96,10 +95,8 @@ const Dashboard = () => {
               child deserves a strong foundation for a successful future.
             </p>
           </motion.div>
-
         </div>
       </div>
-
     </>
   );
 };
