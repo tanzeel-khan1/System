@@ -36,6 +36,8 @@ const AdmissionForm = () => {
     previousSchool: "",
   });
 
+
+  
   const [success, setSuccess] = useState(false);
   const [classError, setClassError] = useState("");
 
