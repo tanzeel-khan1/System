@@ -8,6 +8,7 @@ const Teacher = new mongoose.Schema(
       trim: true,
       unique: true,
     },
+    
     experience: {
       type: Number,
       required: true,
