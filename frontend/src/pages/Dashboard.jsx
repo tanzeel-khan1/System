@@ -32,12 +32,7 @@ const Dashboard = () => {
               academically and morally.
             </p>
 
-            <button
-              onClick={() => navigate("/form")}
-              className="btn-gradient cursor-pointer text-white px-8 py-3 rounded-xl font-medium shadow-lg shadow-purple-300 hover:scale-105 hover:shadow-purple-400 transition-all duration-300"
-            >
-              Get Admission Request →
-            </button>
+          
           </motion.div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
