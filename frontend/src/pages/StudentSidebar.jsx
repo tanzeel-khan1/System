@@ -15,8 +15,8 @@ import Logout from "../pages/Logout";
 
 const menuItems = [
   {
-    name: "Dashboard",
-    path: "/dashboard",
+    name: "exams",
+    path: "/student/exams",
     icon: Home,
   },
   {
@@ -24,16 +24,7 @@ const menuItems = [
     path: "/dashboard/teachers",
     icon: Users,
   },
-  {
-    name: "Courses",
-    path: "/dashboard/courses",
-    icon: Book,
-  },
-  {
-    name: "Contact Us",
-    path: "/dashboard/contact",
-    icon: Contact,
-  },
+  
   {
     name: "About Us",
     path: "/dashboard/about",

@@ -19,6 +19,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Create from "./teachers/Create";
 import Student from "./pages/Student";
+import Exams from "./pages/Exams";
 
 const App = () => {
   return (
@@ -42,8 +43,11 @@ const App = () => {
           <Route path="mycourses" element={<GetMyBuyedCourses />} />
           <Route path="contact" element={<Contact />} />
           <Route path="about" element={<About />} />
+          {/* Student routes */}
         </Route>
-        <Route path="/student" element={<Student />} />
+        <Route path="/student" element={<Student />}>
+          <Route path="exams" element={<Exams />} />
+        </Route>
 
         <Route
           path="/admin"
