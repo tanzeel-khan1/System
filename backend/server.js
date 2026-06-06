@@ -14,6 +14,8 @@ import enrollmentRoutes from "./routes/enrollmentRoutes.js";
 import courseRoutes from "./routes/courseRoutes.js";
 import ContactRoutes from "./routes/contactRoutes.js";
 import attendanceRoutes from "./routes/attendanceRoutes.js";
+import ExamRoutes from "./routes/ExamRoutes.js";
+import NotificationRoutes from "./routes/NotificationRutes.js";
 
 import "./cron/attendanceCron.js";
 
@@ -34,6 +36,7 @@ app.use("/api/enrollments", enrollmentRoutes);
 app.use("/api/courses", courseRoutes);
 app.use("/api/contact", ContactRoutes);
 app.use("/api/attendance", attendanceRoutes);
-
+app.use("/api/exams", ExamRoutes);
+app.use("/api/notifications", NotificationRoutes);
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
