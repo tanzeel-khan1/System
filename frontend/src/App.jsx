@@ -20,6 +20,8 @@ import About from "./pages/About";
 import Create from "./teachers/Create";
 import Student from "./pages/Student";
 import Exams from "./pages/Exams";
+import AllCourses from "./pages/AllCourses";
+import Notification from "./pages/Notification";
 
 const App = () => {
   return (
@@ -47,6 +49,9 @@ const App = () => {
         </Route>
         <Route path="/student" element={<Student />}>
           <Route path="exams" element={<Exams />} />
+          <Route path="notifications" element={<Notification />} />
+    
+          <Route path="courses" element={<AllCourses />} />
         </Route>
 
         <Route
