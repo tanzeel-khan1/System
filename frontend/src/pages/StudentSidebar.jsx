@@ -10,6 +10,7 @@ import {
   InfoIcon,
   LogIn,
   LogOut,
+  BookAIcon,
 } from "lucide-react";
 import Logout from "../pages/Logout";
 
@@ -20,14 +21,14 @@ const menuItems = [
     icon: Home,
   },
   {
-    name: "Teachers",
-    path: "/dashboard/teachers",
-    icon: Users,
+    name: "Courses",
+    path: "/student/courses",
+    icon: BookAIcon,
   },
   
   {
-    name: "About Us",
-    path: "/dashboard/about",
+    name: "Notifications",
+    path: "/student/notifications",
     icon: InfoIcon,
   },
 ];
