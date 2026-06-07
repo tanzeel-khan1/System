@@ -270,8 +270,6 @@ const AllCourses = () => {
                   {selectedCourse.description}
                 </p>
 
-                {/* SYLLABUS */}
-
                 <div className="mt-10">
                   <h3 className="text-2xl font-bold text-blue-600 mb-4">
                     Course Syllabus
@@ -288,9 +286,6 @@ const AllCourses = () => {
                     ))}
                   </div>
                 </div>
-
-                {/* LESSONS */}
-
                 <div className="mt-10">
                   <h3 className="text-2xl font-bold text-purple-600 mb-4">
                     Lessons
@@ -326,8 +321,6 @@ const AllCourses = () => {
                   </div>
                 </div>
 
-                {/* QUIZZES */}
-
                 <div className="mt-10">
                   <h3 className="text-2xl font-bold text-green-600 mb-4">
                     Quizzes
@@ -346,8 +339,6 @@ const AllCourses = () => {
                     ))}
                   </div>
                 </div>
-
-                {/* NOTES */}
 
                 {selectedCourse.notes && (
                   <div className="mt-10">
