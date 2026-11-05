@@ -1,6 +1,5 @@
 # dependencies
 node_modules/
-.env
 # environment files
 !.env.example
 
@@ -20,9 +19,9 @@ out/
 Thumbs.db
 
 # editor / IDE
-.vscode/
 .idea/
 temp_auto_push.bat
 temp_interactive_push.bat
 branch_structure.json
 config.bat
+.gitignore
